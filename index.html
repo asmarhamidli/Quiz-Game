@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Quiz App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="start-button">
+      <button>Start Quiz</button>
+    </div>
+    <div class="info-box">
+      <div class="info-title">
+        <span>Some Rules of this Quiz</span>
+      </div>
+      <div class="info-list">
+        <div class="info">
+          1. If You Get To The End Of This Sudden Death "Harry Potter" Quiz Then You Deserve To Go To Hogwarts
+        </div>
+        <div class="info">
+          2. You will only have <span>30 seconds</span> per each questions.
+        </div>
+        <div class="info">
+          3. You can't select any option once time goes off.
+        </div>
+        <div class="info">
+          4. You can't exit from the Quiz while you're playing.
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="quit-button">Exit Quiz</button>
+        <button class="restart-button">Continue</button>
+      </div>
+    </div>
+    <div class="quiz-box">
+      <header>
+        <div class="title">Potterhead Quiz Application</div>
+
+      </header>
+      <section>
+        <div class="que-text">
+          <!-- <span>Let's start off easy, who is NOT in Gryffindor?</span> -->
+        </div>
+        <div class="option-list">
+          <!--<div class="option">
+            <span>Draco Malfoy</span>
+            <div class="icon tick">
+              <i class="fas fa-check" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="option">
+            <span>Ron Weasley</span>
+            <div class="icon cross">
+              <i class="fas fa-times" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="option">
+            <span>Ginny Weasley</span>
+          </div>
+          <div class="option">
+            <span>Harry Potter</span>
+          </div>
+        </div> -->
+      </section>
+      <footer>
+        <div class="total-que">
+          <!--<span
+            ><p>2</p>
+            of
+            <p>5</p>
+            Questions</span> -->
+        </div>
+        <button class="next-button">Next</button>
+      </footer>
+    </div>
+
+    <div class="result-box">
+      <div class="icon">
+        <i class="fas fa-crown"></i>
+      </div>
+      <div class="complete-text">You've completed the Quiz!</div>
+      <div class="score-text">
+        <!--  <span>and sorry, you got only <p>2</p>out of <p>5</p></span>-->
+      </div>
+      <div class="buttons">
+          <button class="restart-button">Replay</button>
+          <button class="quit-button">Quit</button>
+      </div>
+    </div>
+
+    <script src="./js/questions.js"></script>
+    <script src="./js/app.js"></script>
+
+  </body>
+</html>
